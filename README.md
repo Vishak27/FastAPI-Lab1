@@ -40,5 +40,6 @@ Note:
     uvicorn app:main --reload
     ```
 4. Testing endpoints - to view the documentation of your api model you can use [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) (or) [http://localhost:8000/docs](http://localhost:8000/docs) after you run you run your FastAPI app.
+
+(Note: This is a modification of the original lab from "ML with Ramim" where the work was on iris dataset - here the work is done on the wine dataset)
     `
-- For more information on how to handle errors in FASTAPI refer to this [documentation](https://fastapi.tiangolo.com/tutorial/handling-errors/).
